@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`createCSSVars > matches the locked snapshot format 1`] = `
+":root {
+  --ds-background: #FFFFFF;
+  --ds-surface: #FFFFFF;
+  --ds-border: #E2E8F0;
+  --ds-text-primary: #020618;
+  --ds-text-secondary: #62748E;
+  --ds-text-muted: #62748E;
+  --ds-accent: #0F172B;
+  --ds-destructive: #E7000B;
+  --ds-radius-sm: 6px;
+  --ds-radius-md: 12px;
+  --ds-radius-lg: 20px;
+  --ds-spacing-1: 4px;
+  --ds-spacing-2: 8px;
+  --ds-spacing-3: 12px;
+  --ds-spacing-4: 16px;
+  --ds-spacing-5: 20px;
+  --ds-spacing-6: 24px;
+  --ds-spacing-8: 32px;
+  --ds-spacing-10: 40px;
+  --ds-spacing-12: 48px;
+  --ds-spacing-16: 64px;
+  --ds-font-size-xs: 12px;
+  --ds-font-size-sm: 14px;
+  --ds-font-size-base: 16px;
+  --ds-font-size-lg: 20px;
+  --ds-font-size-xl: 24px;
+  --ds-font-size-2xl: 32px;
+  --ds-font-size-3xl: 48px;
+}
+
+.dark {
+  --ds-background: #020618;
+  --ds-surface: #0F172B;
+  --ds-border: #FFFFFF1A;
+  --ds-text-primary: #F8FAFC;
+  --ds-text-secondary: #90A1B9;
+  --ds-text-muted: #90A1B9;
+  --ds-accent: #E2E8F0;
+  --ds-destructive: #FF6467;
+}
+"
+`;
