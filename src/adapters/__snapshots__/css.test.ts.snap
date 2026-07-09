@@ -13,6 +13,7 @@ exports[`createCSSVars > matches the locked snapshot format 1`] = `
   --ds-radius-sm: 6px;
   --ds-radius-md: 12px;
   --ds-radius-lg: 20px;
+  --ds-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   --ds-spacing-1: 4px;
   --ds-spacing-2: 8px;
   --ds-spacing-3: 12px;

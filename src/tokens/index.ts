@@ -1,6 +1,7 @@
 export * as primitives from './primitive'
 export * from './typography'
 export * from './spacing'
+export * from './elevation'
 export type { ColorTokens, Theme } from './semantic'
 export { personalCompassTheme, personalCompassHabitColors } from '../themes/personal-compass'
 export type { HabitColorKey } from '../themes/personal-compass'

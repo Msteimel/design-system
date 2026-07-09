@@ -40,7 +40,17 @@
     "access": "public"
   },
   "peerDependencies": {
-    "react": ">=18"
+    "react": ">=18",
+    "react-native": ">=0.74",
+    "nativewind": ">=4"
+  },
+  "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    },
+    "nativewind": {
+      "optional": true
+    }
   },
   "license": "MIT",
   "devDependencies": {
@@ -51,13 +61,20 @@
     "@storybook/addon-mcp": "^0.6.0",
     "@storybook/addon-vitest": "^10.4.6",
     "@storybook/react-vite": "^10.4.6",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
     "@types/react": "^19.2.17",
     "@vitest/browser-playwright": "^4.1.10",
     "@vitest/coverage-v8": "^4.1.10",
+    "class-variance-authority": "^0.7.1",
     "eslint": "^10.6.0",
     "eslint-plugin-storybook": "^10.4.6",
+    "jsdom": "^29.1.1",
+    "nativewind": "^4.2.6",
     "playwright": "^1.61.1",
     "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-native": "^0.86.0",
     "storybook": "^10.4.6",
     "tsup": "^8.5.1",
     "typescript": "^5.9.3",
