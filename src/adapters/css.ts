@@ -1,6 +1,7 @@
 import type { Theme } from '../tokens/semantic'
 import { spacing, radius } from '../tokens/spacing'
 import { fontSizes } from '../tokens/typography'
+import { shadow } from '../tokens/elevation'
 
 const px = (n: number) => `${n}px`
 
@@ -18,6 +19,7 @@ export function createCSSVars(theme: Theme): string {
     `  --ds-radius-sm: ${px(radius.sm)};`,
     `  --ds-radius-md: ${px(radius.md)};`,
     `  --ds-radius-lg: ${px(radius.lg)};`,
+    `  --ds-shadow: ${shadow};`,
     ...Object.entries(spacing).map(([key, value]) => `  --ds-spacing-${key}: ${px(value)};`),
     ...Object.entries(fontSizes).map(([key, value]) => `  --ds-font-size-${key}: ${px(value)};`),
   ]
